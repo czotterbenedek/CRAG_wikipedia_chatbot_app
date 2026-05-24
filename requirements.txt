@@ -1,0 +1,9 @@
+faiss-cpu
+langgraph
+numpy
+ollama
+pillow
+pydantic>=2,<3
+PyYAML
+streamlit
+tqdm

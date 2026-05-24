@@ -1,0 +1,9 @@
+embedding_model: nomic-embed-text:latest
+ollama_model: llama3.2:3b
+raw_corpus_file: data/raw/AllCombined.txt
+embeddings_cache_dir: data/embeddings
+chunk_size: 1500
+chunk_overlap: 220
+top_k: 6
+history_max_turns: 8
+history_similarity_threshold: 0.6
