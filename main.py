@@ -25,7 +25,7 @@ def main() -> None:
     st.set_page_config(page_title="Wikipedia CRAG Q&A", page_icon="🤖", layout="wide")
     _, _, graph, _ = load_app()
 
-    st.title("🤖 Wikipedia RAG Q&A ChatBot")
+    st.title("🤖 Wikipedia CRAG Q&A ChatBot")
     st.markdown("Ask questions about general knowledge!")
     st.markdown("---")
 
