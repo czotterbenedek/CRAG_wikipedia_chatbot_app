@@ -80,7 +80,7 @@ def fallback_answer_node(state: dict[str, Any], settings: ProjectSettings) -> di
 
 The retrieved chunks were not relevant enough to answer this question.
 Respond with one concise paragraph that begins with:
-"The query cannot be answered based on the chunks. Based on my knowledge, the answer is ..."
+"The query cannot be answered based on the chunks. Based on my knowledge, the answer is that ..."
 Then provide the best answer you can from general knowledge.
 """.strip()
     raw_response = _chat(

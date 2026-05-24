@@ -49,7 +49,7 @@ def main() -> None:
     if len(st.session_state.messages) > 0:
         st.caption(f"{len(st.session_state.messages) // 2} exchanges in this session")
 
-    if prompt := st.chat_input("Ask a question (chain remembers automatically)..."):
+    if prompt := st.chat_input("Ask a question ..."):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.write(prompt)
