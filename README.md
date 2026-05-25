@@ -1,11 +1,11 @@
 # Wikipedia CRAG Chatbot
 
-Very basic RAG chatbot over a Wikipedia-style text corpus.
+CRAG chatbot over a Wikipedia-style text corpus.
 
 ## Project Summary
 
 ```text
-TFB4FY_homework/
+CRAG_WIKIPEDIA_CHATBOT_APP/
 ├── README.md
 ├── requirements.txt
 ├── prepare_data.py
